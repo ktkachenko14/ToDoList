@@ -1,0 +1,22 @@
+.list{
+    list-style-type: none;
+    font-size: medium;
+    font-style: italic;
+    overflow: hidden;
+    text-align: center;
+    
+    
+}
+
+.list li{
+ 
+    background-color: rgb(87, 151, 151);
+    display:inline-block;
+    width: 500px;
+    color: floralwhite;
+}
+.toDo{
+    display: inline-block;
+   
+}
+

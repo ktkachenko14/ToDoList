@@ -1,0 +1,21 @@
+.header {
+    height: 75px;
+    background-color: rgb(87, 151, 151);
+    text-align: start;
+    
+   
+  }
+  
+  .header .headerTitle {
+    color: floralwhite;
+    font-family: monospace;
+    font-size: 2em;
+    margin-left: 10px;
+    padding-top: 17px;
+    display: inline-block;
+  }
+
+  .header .motivationalQuotes{
+    margin-left: 10px;
+    color: lightpink;
+  }
