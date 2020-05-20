@@ -1,12 +1,13 @@
 import React from 'react';
-import {TODOSDATA} from '../todosData';
+//import {TODOSDATA} from '../todosData';
 import ToDoItem from './ToDoItem';
 
+
 function Main(){
-    const todosData = TODOSDATA.map(todo => <ToDoItem key={todo.id} info={todo} />);
+    //const todosData = TODOSDATA.map(todo => <ToDoItem key={todo.id} info={todo} />);
     return(
         <div>
-            {todosData}
+            <ToDoItem/>
         </div>
     );
 }

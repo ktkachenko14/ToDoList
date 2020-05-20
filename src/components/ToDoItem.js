@@ -1,19 +1,23 @@
 import React from 'react';
-import './ToDoItem.css';
+//import ToDoItem from './ToDoItem';
 
-function ToDoItem(props){
-
-    return(
-       <ul className="list">
-            <li>
-                <input id="check" type="checkbox" checked={props.info.completed} className="toDo"></input>
-                <p className="toDo">{props.info.text}</p>
-            </li>
-        </ul>
-        
-    );
+class ToDoItem extends React.Component{
+    constructor(props){
+        super(props)
+    }
     
+    render(){
+        const { text} = this.props.item;
+        return(
+            <div>
+             
+                <p className="toDo">{text}</p>
+            </div>
+        )
+    }
 }
+
+
 
 
 export default ToDoItem;
